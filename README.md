@@ -67,9 +67,9 @@ cd backend
 
 uv add pyproject.toml
 
-uv run django-admin makemigrations 
+uv run manage.py makemigrations 
 
-uv run django-admin migrate
+uv run manage.py migrate
 
 uv run manage.py runserver
 ```
